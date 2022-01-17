@@ -28,5 +28,13 @@ $ npm install
 $ npm run start
 ```
 
+_To build/run docker container:_
+```bash
+$ cd ***REMOVED***
+$ docker build -t not***REMOVED*** .
+$ docker run -d -p 3000:3000 not***REMOVED***
+```
+open http://localhost:3000 in browser.
+
 ### I'm looking for a junior developer role
 Please feel free to contact me on [linkedin](https://www.linkedin.com/in/hannahpark1000/) and learn more about me [here](https://www.hannahmariepark.com/)
