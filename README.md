@@ -30,7 +30,6 @@ $ npm run start
 
 _To build/run docker container:_
 ```bash
-$ cd ***REMOVED***
 $ docker build -t not***REMOVED*** .
 $ docker run -d -p 3000:3000 not***REMOVED***
 ```
