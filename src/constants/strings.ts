@@ -1,1 +1,1 @@
-export const WIN_MESSAGES = ['Puikus darbas!', 'Puiku!', 'Gerai!']
+export const WIN_MESSAGES = ['Puikus darbas!', 'Puiku!', 'Labai gerai!']
