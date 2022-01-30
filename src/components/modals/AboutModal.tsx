@@ -7,7 +7,11 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal
+      title="Papildoma informacija"
+      isOpen={isOpen}
+      handleClose={handleClose}
+    >
       <p className="text-sm text-gray-500">
         Tai atvirojo kodo žaidimo “***REMOVED***” klonas.{' '}
         <a

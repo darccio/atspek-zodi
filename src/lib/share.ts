@@ -3,8 +3,9 @@ import { solutionIndex } from './words'
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
-    `***REMOVED*** 🇱🇹 ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
-      generateEmojiGrid(guesses)
+    `Lietuviškas ***REMOVED*** 🇱🇹 ${solutionIndex} ${
+      lost ? 'X' : guesses.length
+    }/6\n\n` + generateEmojiGrid(guesses)
   )
 }
 
