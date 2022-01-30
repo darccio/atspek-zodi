@@ -9,20 +9,21 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        This is an open source clone of the game ***REMOVED*** -{' '}
+        Tai atvirojo kodo žaidimo “***REMOVED***” klonas.{' '}
         <a
-          href="https://github.com/hannahcode/***REMOVED***"
+          href="https://github.com/imdario/***REMOVED***-lt"
           className="underline font-bold"
         >
-          check out the code here
-        </a>{' '}
-        and{' '}
+          Atvirąjį kodą rasite čia
+        </a>
+        ,{' '}
         <a
           href="https://www.powerlanguage.co.uk/***REMOVED***/"
           className="underline font-bold"
         >
-          play the original here
+          originalią žaidimo versiją galite išbandyti čia
         </a>
+        {'.'}
       </p>
     </BaseModal>
   )
