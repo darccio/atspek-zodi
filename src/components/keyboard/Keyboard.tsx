@@ -31,7 +31,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
         onDelete()
       } else {
         const key = e.key.toUpperCase()
-        if (key.length === 1 && key >= 'A' && key <= 'Z') {
+        if (key.length === 1) {
           onChar(key)
         }
       }
@@ -44,6 +44,17 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
 
   return (
     <div>
+      <div className="flex justify-center mb-1">
+        <Key value="Ą" onClick={onClick} status={charStatuses['Ą']} />
+        <Key value="Č" onClick={onClick} status={charStatuses['Č']} />
+        <Key value="Ę" onClick={onClick} status={charStatuses['Ę']} />
+        <Key value="Ė" onClick={onClick} status={charStatuses['Ė']} />
+        <Key value="Į" onClick={onClick} status={charStatuses['Į']} />
+        <Key value="Š" onClick={onClick} status={charStatuses['Š']} />
+        <Key value="Ų" onClick={onClick} status={charStatuses['Ų']} />
+        <Key value="Ū" onClick={onClick} status={charStatuses['Ū']} />
+        <Key value="Ž" onClick={onClick} status={charStatuses['Ž']} />
+      </div>
       <div className="flex justify-center mb-1">
         <Key value="Q" onClick={onClick} status={charStatuses['Q']} />
         <Key value="W" onClick={onClick} status={charStatuses['W']} />
