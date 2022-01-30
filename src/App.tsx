@@ -143,7 +143,7 @@ function App() {
         isGameLost={isGameLost}
         isGameWon={isGameWon}
         handleShare={() => {
-          setSuccessAlert('Game copied to clipboard')
+          setSuccessAlert('Žaidimas nukopijuotas į mainų sritį')
           return setTimeout(() => setSuccessAlert(''), ALERT_TIME_MS)
         }}
       />
