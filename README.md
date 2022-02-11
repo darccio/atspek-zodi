@@ -57,6 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) in browser.
 - ['en si lì'ur](https://tirea.learnnavi.org/***REMOVED***): Na'vi, the constructed language from James Cameron's AVATAR (2009)
 - [***REMOVED***.cl](https://www.***REMOVED***.cl): Chilean modisms, cities, places
 - [Anidal](https://anidal-abrarhayat.web.app/): Animals
+- [FFXIVrdle](https://ffxivrdle.com/): Final Fantasy XIV
 
 ### Math, Acronyms, Science, Tech, and more
 
