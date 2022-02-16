@@ -59,6 +59,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Keclap](https://keclap.xyz/): Sundanese
 - [kelma.mt](https://kelma.mt): Maltese
 - [***REMOVED*** (BOS)](https://elahmo.github.io/***REMOVED***/): Bosnian
+- [***REMOVED*** (Spanish)](https://***REMOVED***-es.xavier.cc): Spanish/Espanol
 
 ### Fun themes
 
