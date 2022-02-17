@@ -69,6 +69,7 @@ Open [http://localhost](http://localhost) in browser.
 - [***REMOVED***-RO](https://***REMOVED***-ro.sirb.net/): Romanian
 - [Wortel](https://wortel.wrintiewaar.co.za): Afrikaans
 - [Wörtchen](https://woertchen.sofacoach.de): German
+- [SG***REMOVED***](https://sg***REMOVED***.now.sh/): Swiss German
 - [kelma.mt](https://kelma.mt): Maltese
 - [Слівце](https://slivce.com/): Ukrainian
 - [ਪੰਜਾਬੀ](https://punjabipuzzle.netlify.app/): Punjabi
@@ -91,6 +92,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Harry Potter](https://www.harrypotter***REMOVED***.com/): Harry Potter
 - [JoJodle](https://jojo-news.com/fun/jojodle/): JoJo’s Bizarre Adventure
 - [Mahjong Handle](https://mahjong-handle.update.sh/): Mahjong Hands
+- [Filmle](https://filmle.now.sh/): Movie titles
 - [Movie ***REMOVED***](https://movie-***REMOVED***.vercel.app): Bollywood
 - [Murdle](https://murdle.vercel.app/): Spooky hangman mashup
 - [Poker Handle](https://kikychow.github.io/poker-***REMOVED***/): Poker
