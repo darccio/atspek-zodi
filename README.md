@@ -116,6 +116,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Opsle](https://opsle.vercel.app/): Ops
 - [Pass***REMOVED***](https://pass***REMOVED***.sp8c3.com/): Passwords
 - [Primel](https://converged.yt/primel/): Prime numbers
+- [Q***REMOVED***](https://q***REMOVED***.bhat.ca/): Quantum version of ***REMOVED*** (uses entangled word-pairs)
 - [Rundle](https://furstenheim.github.io/react-***REMOVED***/): Like ***REMOVED***, but only last three guesses are considered.
 - [Stockle](https://stockle.win/): Guess the stock or ETF
 - [Syscordle](https://nezza.github.io/syscordle/): SYSCALL
