@@ -121,6 +121,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Numble](https://rbrignall.github.io/numble/): Maths
 - [Opsle](https://opsle.vercel.app/): Ops
 - [Pass***REMOVED***](https://pass***REMOVED***.sp8c3.com/): Passwords
+- [Perfdle](https://perfdle.com): Performance Testers and Engineers, DevOps, and Observability
 - [Primel](https://converged.yt/primel/): Prime numbers
 - [Q***REMOVED***](https://q***REMOVED***.bhat.ca/): Quantum version of ***REMOVED*** (uses entangled word-pairs)
 - [Quantle](https://deduckproject.github.io/quantle/): Another quantum variant where guesses are quantum equations
