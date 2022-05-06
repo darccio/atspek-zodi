@@ -106,6 +106,7 @@ Open [http://localhost](http://localhost) in browser.
 - [Movie ***REMOVED***](https://movie-***REMOVED***.vercel.app): Bollywood
 - [Murdle](https://murdle.vercel.app/): Spooky hangman mashup
 - [Poker Handle](https://kikychow.github.io/poker-***REMOVED***/): Poker
+- [Poker Handle 2](https://poker-handle2.com/): Poker
 - [Quettale](https://quettale.vercel.app/): Quenya, Elven language in LOTR
 - [Radiole](https://radiole.vercel.app/): Radio-themed (for World Radio Day)
 - [Rare***REMOVED***](https://r***REMOVED***.vercel.app/): Word guessing with multiple solutions each day where the goal is to find the most obscure one. It is inspired by the TV game show Pointless.
