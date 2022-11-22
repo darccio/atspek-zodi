@@ -137,8 +137,8 @@ For mobile and wearable devices and smart TVs, sharing of results is initially a
 - [Ukrainian](https://goroh.pp.ua/games/***REMOVED***): Ukrainian
 - [Urdle](https://urdle.chaoticity.com/): Urdu
 - [Vārdulis](https://***REMOVED***.lielakeda.lv/): Latvian
+- [Wokle](https://wokle.njamed.com/): Bininj Kunwok
 - [Word-leh!](https://word-leh.com): Singlish
-- [Wordlar](http://wordlar.uz/): Uzbek
 - [***REMOVED*** (BOS)](https://elahmo.github.io/***REMOVED***/): Bosnian
 - [***REMOVED*** (Spanish)](https://***REMOVED***-es.xavier.cc): Spanish/Espanol
 - [***REMOVED***-RO](https://***REMOVED***-ro.sirb.net/): Romanian
