@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       handleClose={handleClose}
     >
       <p className="text-sm text-gray-500">
-        Atspėk ***REMOVED*** iš 6 kartų. Po kiekvieno spėjimo langelių spalva pasikeis
+        Atspėk žodį iš 6 kartų. Po kiekvieno spėjimo langelių spalva pasikeis
         ir parodys kiek teisingas buvo tavo spėjimas.
       </p>
 
