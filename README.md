@@ -19,8 +19,8 @@ $> npm run start
 #### Development
 
 ```bash
-$> docker build -t ***REMOVED***:dev -f docker/Dockerfile .
-$> docker run -d -p 3000:3000 --name ***REMOVED***-dev ***REMOVED***:dev
+$> docker build -t atspek-zodi:dev -f docker/Dockerfile .
+$> docker run -d -p 3000:3000 --name atspek-zodi-dev atspek-zodi:dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in browser.
@@ -28,8 +28,8 @@ Open [http://localhost:3000](http://localhost:3000) in browser.
 #### Production
 
 ```bash
-$> docker build --target=prod -t ***REMOVED***:prod -f docker/Dockerfile .
-$> docker run -d -p 80:8080  --name ***REMOVED***-prod ***REMOVED***:prod
+$> docker build --target=prod -t atspek-zodi:prod -f docker/Dockerfile .
+$> docker run -d -p 80:8080  --name atspek-zodi-prod atspek-zodi:prod
 ```
 
 Open [http://localhost](http://localhost) in browser. See the [entry in the FAQ](#why-does-sharing-of-results-not-work) below about requirements for sharing of results.
