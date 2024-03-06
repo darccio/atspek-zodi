@@ -2,14 +2,6 @@
 
 A daily online puzzle game to guess a secret word. Made using React, Typescript, and Tailwind.
 
-**Original README**
-
-_Inspiration_:
-Like many others all over the world, I saw the signature pattern of green, yellow, and white squares popping up all over social media and the web and had to check it out. After a few days of play, I decided it would be great for my learning to try to rebuild ***REMOVED*** in React!
-
-_Design Decisions:_
-A combination of React, Typescript, and Tailwind was used to build this ***REMOVED*** Clone. When examining the original ***REMOVED***, I assumed the list might come from an external API or database, but after investigating in chrome dev tools I found that the list of words is simply stored in an array on the front end. I'm using the same list as the OG ***REMOVED*** uses, but watch out for spoilers if you go find the file in this repo! The word match functionality is simple: the word array index increments each day from a fixed game epoch timestamp (only one puzzle per day!) roughly like so:
-
 ```
 WORDS[Math.floor((NOW_IN_MS - GAME_EPOCH_IN_MS) / ONE_DAY_IN_MS)]
 ```
