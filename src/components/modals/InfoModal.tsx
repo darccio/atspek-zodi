@@ -61,7 +61,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-***REMOVED***"
+          href="https://github.com/darccio/atspek-zodi"
           className="font-bold underline"
         >
           check out the code here

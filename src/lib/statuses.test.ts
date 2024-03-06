@@ -35,7 +35,7 @@ describe('getGuessStatuses', () => {
       'correct',
     ])
 
-    // https://github.com/cwackerfuss/react-***REMOVED***/issues/456
+    // https://github.com/darccio/atspek-zodi/issues/456
     expect(getGuessStatuses('BOSSY', 'SASSY')).toEqual([
       'absent',
       'absent',

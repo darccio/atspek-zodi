@@ -1,8 +1,6 @@
-# React ***REMOVED***
+# Atspėk žodį
 
-This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
-
-[**Try out the demo!**](https://***REMOVED***.vercel.app/)
+A daily online puzzle game to guess a secret word. Made using React, Typescript, and Tailwind.
 
 ## Build and run
 
@@ -11,7 +9,7 @@ This is a clone project of the popular word guessing game we all know and love. 
 Clone the repository and perform the following command line actions:
 
 ```bash
-$> cd react-***REMOVED***
+$> cd atspek-zodi
 $> npm install
 $> npm run start
 ```
@@ -82,145 +80,6 @@ Note that guesses are validated against both the length of the solution, and pre
 - To enable replaying past days' games, set `ENABLE_ARCHIVED_GAMES` to `true`
 - Set `DATE_LOCALE` to a suitable locale string as defined in [date-fns](https://github.com/date-fns/date-fns/tree/main/src/locale).
 
-### How can I add usage tracking?
-
-This repository includes support for Google Analytics or [Plausible Analytics](https://plausible.io), but, by default, this is disabled.
-
-To enable Google Analytics:
-
-- Create a Google Analytics 4 property and obtain the measurement ID (of the format `G-XXXXXXXXXX`)
-- In [.env](.env), add `REACT_APP_GOOGLE_MEASUREMENT_ID=G-XXXXXXXXXX`
-
-Keep in mind that your region might have legislation about obtaining a user's consent before enabling trackers. This is up to downstream repos to implement.
-
-To enable Plausible Analytics:
-
-- Create a new website with Plausible Analytics with a given domain, e.g. `example.app`
-- In [.env](.env), add `REACT_APP_PLAUSIBLE_DOMAIN=example.app`
-
 ### Why does sharing of results not work?
 
 For mobile and wearable devices and smart TVs, sharing of results is initially attempted using the [Web Share API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API). For other devices or when sharing to the Web Share API fails, the results are written to the clipboard. Both these methods will succeed only in a [secure context](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts), which require you to implement the HTTPS protocol when hosting this repo on a public domain.
-
-## Projects built using this repo
-
-### Other languages
-
-- [Ar***REMOVED***](https://ar***REMOVED***.netlify.app/): Arabic
-- [Boludle](https://www.boludle.com/): Argentinian
-- [Gerdle](https://gerdle.vext.co.uk/): Cornish (Kernowek)
-- [J***REMOVED***](https://j***REMOVED***.vercel.app/): Japanese
-- [Katadel](https://katadel.vercel.app/): Jawi (Malay Arabic script)
-- [Keclap](https://keclap.xyz/): Sundanese
-- [Kelmaly](https://kelmaly.com/): Arabic
-- [Kerdle](https://kerdle.vercel.app/): Cornish/Kernewek (Standard Written Form)
-- [Latindictionary.io](https://***REMOVED***.latindictionary.io/): Latin
-- [Lexoula](https://lexoula.com/): Ελληνικά (Greek)
-- [Malay](https://malay-***REMOVED***.netlify.app/): Bahasa Malaysia
-- [Mondle](https://mondle.vercel.app/): Mongolian
-- [Parig](https://www.parig.xyz/): Western Armenian
-- [Parolette](https://parolette.netlify.app/): Italian
-- [Parolle.it](https://parolle.it): Italian
-- [Pashtoodle](https://pashtoodle.lingdocs.com): Pashto
-- [Persian](https://www.persian-***REMOVED***.ir/): Persian (Farsi)
-- [Persiga](https://www.persi.ga/): Portuguese
-- [Pinyin](https://www.pinyindle.com/): Pinyin (romanization system for Mandarin Chinese)
-- [Rudle](https://rudle.vercel.app): Russian
-- [Sindhal](https://hellosindh.com/sindhal): Sindhi
-- [Szózat](https://szozat.miklosdanka.com/): Hungarian
-- [So'zzana](https://sozzana.netlify.app/): O'zbek (Lotin)
-- [Tatar](https://tatardle.vercel.app/): Tatar (Turkic Language)
-- [Tàu Tâi-gí (Taigi ***REMOVED***)](https://tau.taigi.info/): Taigi (Taiwanese)
-- [Telugu](https://telugu***REMOVED***.com): Telugu (South Indian Language)
-- [Tlembung](https://tlembung.vercel.app/): Javanese
-- [Tugma](https://tugma.vercel.app): Hiligaynon (spoken in the Philippines)
-- [Ukrainian](https://goroh.pp.ua/games/***REMOVED***): Ukrainian
-- [Urdle](https://urdle.chaoticity.com/): Urdu
-- [Vārdulis](https://***REMOVED***.lielakeda.lv/): Latvian
-- [Wokle](https://wokle.njamed.com/): Bininj Kunwok
-- [Word-leh!](https://word-leh.com): Singlish
-- [***REMOVED*** (BOS)](https://elahmo.github.io/***REMOVED***/): Bosnian
-- [***REMOVED*** (Spanish)](https://***REMOVED***-es.xavier.cc): Spanish/Espanol
-- [***REMOVED***-RO](https://***REMOVED***-ro.sirb.net/): Romanian
-- [Wortel](https://wortel.wrintiewaar.co.za): Afrikaans
-- [Wörtchen](https://woertchen.sofacoach.de): German
-- [SG***REMOVED***](https://sg***REMOVED***.now.sh/): Swiss German
-- [kelma.mt](https://kelma.mt): Maltese
-- [Žodelė](https://zodele.lt): Lithuanian
-- [Слівце](https://slivce.com/): Ukrainian
-- [ਪੰਜਾਬੀ](https://punjabipuzzle.netlify.app/): Punjabi
-- [சொல்லாடல் Soladle](https://omtamil.com/soladle): Tamil
-- [字知之明](https://zedaizd.github.io/zh-char-puzzle/): Traditional Chinese
-- [꼬들 - 한국어](https://belorin.github.io/): Korean
-- [한글 풀어쓰기 5자](https://nakosung.github.io/***REMOVED***/): Korean
-- [ไทย](https://buddhistuniversity.net/***REMOVED***-thai/): Thai
-- [ಕನ್ನಡ](https://www.aksharabandha.co.in/): Kannada
-
-### Fun themes
-
-- [Airportle](https://airportle.scottscheapflights.com/): Airport Codes
-- [Anidal](https://anidal-abrarhayat.web.app/): Animals
-- [Birdle - Emojis](https://birdle.dev): Bird emojis
-- [Birdle](https://www.creek-birdle.com/): Birds
-- [Buildly](https://buildly.procurepro.co/): Construction themed
-- [Chipotle](https://chipotlele.herokuapp.com): Chipotle (food, items, etc.) themed
-- [Cross***REMOVED***](https://cross***REMOVED***.mekoppe.com/): Crossword mashup
-- [DALL-e-dle](https://dall-e-dle.vercel.app/): Provides a DALL-E generated image of the word as a clue
-- [Dundle](https://dundle.dunmiffcord.com/): The Office
-- [FFXIVrdle](https://ffxivrdle.com/): Final Fantasy XIV
-- [Harry Potter](https://www.harrypotter***REMOVED***.com/): Harry Potter
-- [JoJodle](https://jojo-news.com/fun/jojodle/): JoJo’s Bizarre Adventure
-- [Mahjong Handle](https://mahjong-handle.update.sh/): Mahjong Hands
-- [Filmle](https://filmle.now.sh/): Movie titles
-- [Fletcherdle](https://www.fletcherdle.com/): American singer-songwriter FLETCHER
-- [Lyricle](https://www.lyricle.app/): Lyrics
-- [Marvle](https://marvle.herokuapp.com): Superhero (Marvel and DC) themed
-- [Movie ***REMOVED***](https://movie-***REMOVED***.vercel.app): Bollywood
-- [Murdle](https://murdle.vercel.app/): Spooky hangman mashup
-- [Pawnle](https://pawnle.vercel.app/): Parks and Recreation
-- [Poker Handle](https://kikychow.github.io/poker-***REMOVED***/): Poker
-- [Poker Handle 2](https://poker-handle2.com/): Poker
-- [Polygonle](https://www.polygonle.com/): ***REMOVED*** with a shape-based clue for each character
-- [Quettale](https://quettale.vercel.app/): Quenya, Elven language in LOTR
-- [Radiole](https://radiole.vercel.app/): Radio-themed (for World Radio Day)
-- [Rare***REMOVED***](https://r***REMOVED***.vercel.app/): Word guessing with multiple simultaneous solutions of varying "values", all created from the same letters. The goal is to find the most obscure solution. It is inspired by the TV game show Pointless.
-- [Reverdle](https://reverdle.now.sh/): ***REMOVED*** but in reverse, that is one has to make as many guesses possible which do not have any green letter (i.e. a letter in the correct location compared to the hidden solution).
-- [Squirdle](https://squirdle-inky.vercel.app/): Pokeman
-- [Tacticle](https://tacticle.co/): Chess puzzles
-- [Taylordle](https://www.taylordle.com/): Taylor Swift
-- [Trekle](https://treklegame.com): Star Trek
-- [Weedel](https://meetmeinouter.space/***REMOVED***/): Video game characters
-- [***REMOVED***.cl](https://www.***REMOVED***.cl): Chilean modisms, cities, places
-- [Wrdl](https://wrdl-abae.vercel.app/): Words that are 5 letters long after getting rid of their vowels
-- [WROUD](https://www.wroud.net/): W R O U D is a simple word game that challenges people to find a six-letter word in 3 guesses from a cloud of letters.
-- [香港麻雀 糊 dle](https://hkwudle.vercel.app/): Mahjong hands under Hong Kong rules
-
-### Fun themes in other languages
-- [German Harry Potter ***REMOVED***](https://hp***REMOVED***.de)
-
-### Math, Acronyms, Science, Tech, and more
-
-- [AI-powered](https://github.com/asirota/***REMOVED***-ai): Includes an AI component
-- [Biordle](https://biordle.grenteam.com): Biology
-- [Colordle](https://github.com/necropolina/colordle): Guess the hexadecimal color code of the background
-- [Genel](https://andrewholding.github.io/gene-***REMOVED***/): Gene symbols
-- [Jazle](https://jazle.quest/): Javascript
-- [Mathler](https://www.mathler.com/): Find the solution that equals X
-- [Morsel](https://plingbang.github.io/morsel/): Morse
-- [Numble](https://rbrignall.github.io/numble/): Maths
-- [Opsle](https://opsle.vercel.app/): Ops
-- [Pass***REMOVED***](https://pass***REMOVED***.sp8c3.com/): Passwords
-- [Perfdle](https://perfdle.com): Performance Testers and Engineers, DevOps, and Observability
-- [Primel](https://converged.yt/primel/): Prime numbers
-- [Q***REMOVED***](https://q***REMOVED***.bhat.ca/): Quantum version of ***REMOVED*** (uses entangled word-pairs)
-- [Quantle](https://deduckproject.github.io/quantle/): Another quantum variant where guesses are quantum equations
-- [Rundle](https://furstenheim.github.io/react-***REMOVED***/): Like ***REMOVED***, but only last three guesses are considered.
-- [Stockle](https://stockle.win/): Guess the stock or ETF
-- [Syscordle](https://nezza.github.io/syscordle/): SYSCALL
-- [TwoKinds](https://twokinds.me): There's only two kinds of people in this World.
-- [UNLOCOdle](https://unlocodle.collabital.com/): UNLOCODEs
-- [Visionle](https://orisenbazuru.github.io/visionle/): Guess the label of randomly chosen image from ImageNet/ImageNet-Sketch dataset (Machine learning)
-- [Zip-zap-bam!](https://aneets.github.io/zip-zap-bam/): Word ladder game.
-- [0xdle](https://0xdle.vercel.app/): Hexadecimal
-
-_Want to add one to the list? Please make a pull request._
